@@ -1,23 +1,110 @@
 <!DOCTYPE html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Key Detection</title>
-  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+<title>Gatinhos</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
 </head>
 <body>
-<script>
-const pressed = [];
-const secretCode = 'wesbos';
-window.addEventListener('keyup', (e) => {
-  console.log(e.key);
-  pressed.push(e.key);
-  pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
-  if (pressed.join('').includes(secretCode)) {
-    console.log('DING DING!');
-    cornify_add();
-  }
-  console.log(pressed);
-});
-</script>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">Gatinhos</a></h1>
+      <h2>Os traidores</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=IngTn22NoNg">nao veja</a></li>
+        <li class="last"><a href="https://www.youtube.com/watch?v=2xaFGPY9FwA">malvados e perigosos</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- Slider -->
+    <section id="slider"><a href="#"><img src="images/demo/gato4.jpg" alt=""></a></section>
+    <!-- main content -->
+    <div id="homepage">
+      <!-- Services -->
+      <section id="services" class="clear">
+        <article class="one_third">
+          <figure><img src="images/demo/gato1.jfif" width="290" height="180" alt="">
+            <figcaption>
+              <h2>felinus malicius</h2>
+              <p>Te destroi com olhar evitar contato (foto meremente ilustrativa ninguem nunca viu um e saiu vivo).</p>
+             
+            </figcaption>
+          </figure>
+        </article>
+        <article class="one_third">
+          <figure><img src="images/demo/gato2.jfif" width="290" height="180" alt="">
+            <figcaption>
+              <h2>felinios malinenos</h2>
+              <p>brinca com as presas antes de devoralas (os que conseguem fugir nunca mas seram os mesmos).</p>
+              
+            </figcaption>
+          </figure>
+        </article>
+        <article class="one_third lastbox">
+          <figure><img src="images/demo/gato3.jfif" width="290" height="180" alt="">
+            <figcaption>
+              <h2>malmalvidos felinacio</h2>
+              <p>atrai as presas com um encantamento (imagen ilustrativa os que encontram essa fera nunca mais seram vistos).</p>
+              
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+      <!-- / Services -->
+      <!-- ########################################################################################## -->
+      <!-- ########################################################################################## -->
+      <!-- ########################################################################################## -->
+      <!-- ########################################################################################## -->
+      <!-- Introduction -->
+      <section id="intro" class="last clear">
+        <article>
+          
+            <figcaption>
+              <h2>Caçadores de felinaceos</h2>
+              <p>se voce odeia esses animais assim como eu, junte se a aliança cacadora por um taxa de inscriçao de R$999999999,99 </a>.</p>
+              
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+      <!-- / Introduction -->
+    </div>
+    <!-- / content body -->
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <div id="footer" class="clear">
+    <!-- Section One -->
+    <section class="one_quarter">
+
+    </section>
+    <!-- Section Two -->
+    <section class="one_quarter">
+    </section>
+    <!-- Section Three -->
+    <section class="one_quarter">
+
+    </section>
+    <!-- Section Four -->
+    <section class="one_quarter lastbox">
+   
+      <nav>
+
+    </section>
+    <!-- / Section -->
+  </div>
+</div>
+<!-- Copyright -->
+<div class="wrapper row4">
+</div>
 </body>
 </html>
